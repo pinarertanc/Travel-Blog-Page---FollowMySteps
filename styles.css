@@ -26,7 +26,8 @@ background-repeat: no-repeat;
 background-size:auto;
 }
 
-.navbarlistbody{background-image:unset;}
+.tab{background-image:none;}
+.box-shadow-nav{box-shadow:rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;}
 
 h1,h2,h3,.logo{font-family:'Caveat', sans-serif;
 color:var(--night-blue);}
