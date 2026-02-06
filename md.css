@@ -1,0 +1,52 @@
+/* @media all and (min-width:768px) and (max-width:1023.98px) */
+
+body {
+background-image:url(./assets/Hero-image-md.png);
+}
+
+nav{max-width:var(--site-contant-md);
+}
+
+.logo{ 
+font-size:44px;  
+order:2;  
+}
+
+#sidebarMenu {
+top:100px;
+}
+
+.sidebarIconToggle {
+padding:11px 11px;
+order:2;
+}
+
+.social-media{display:none;
+}
+
+.hero-contant{max-inline-size: 45ch;}
+
+.instagram,.youtube{
+padding:5px 5px;
+background-color: var(--sunny-yellow);
+border-radius:50px 50px;
+}
+
+.hero-image{padding-block-start:30rem;
+}
+
+h3{font-size:28px;}
+
+footer{flex-direction:row;
+justify-content:space-between;
+padding-inline:20px;
+}
+
+.footer-contact{align-items:flex-start;
+padding-inline-end:85px;
+}
+
+.footer-support{padding-block-start:0;
+}
+
+
