@@ -1,0 +1,62 @@
+* {
+ box-sizing: border-box;
+ scroll-behavior:smooth;
+}
+
+:root {
+  --night-blue: #1A2A44;    /* Derin Gece Mavisi */
+  --sunny-yellow: #FFD700;  /* Güneş Sarısı */
+  --classic-beige: #Fafafa; /* Arka Plan Bej */
+  --charcoal-black: #333333;/* Gövde Metni */
+  --white: #FFFFFF;
+}
+
+body {
+margin: 0;
+padding:0;
+background:var(--classic-beige);
+font-family:quicksand, sans-serif;
+}
+
+nav { display:flex;
+justify-content:space-between;
+align-items:baseline;
+background-color:var(--classic-beige);
+padding: 8px 70px;
+box-shadow:rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+font-weight:500;
+}
+
+ul{ display:flex;
+gap:25px;
+list-style:none;
+padding-inline-start:0;
+padding-inline-end:70px;
+}
+
+li>a{padding:5px 7px;}
+
+li>a:hover {background-color:var(--sunny-yellow); 
+border-radius:15px;}
+
+.social-media { display:flex;
+gap:20px;
+}
+
+a{text-decoration:none;
+color:var(--night-blue);
+}
+
+.instagram,.youtube{
+  padding:12px 12px;
+  background-color: var(--sunny-yellow);
+  border-radius:50px 50px;
+}
+
+.instagram:hover{background-color:#e1306c;}
+.youtube:hover{background-color:#ff0000;}
+
+.logo{ font-family: 'Caveat', sans-serif;
+font-size:36px;
+color:var(--night-blue);     
+}
