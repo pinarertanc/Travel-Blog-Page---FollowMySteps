@@ -25,7 +25,7 @@ display: none;
 }
  
 ul li:hover ul {top: 27px;
-left: -5px;
+left: 0px;
 display: block;
 }
 
@@ -91,8 +91,7 @@ h2{font-size:1.7em;
 h3{font-size:1.7em;
 }
 
-p{text-indent:1em;
-font-size:0.8em;
+p{font-size:0.8em;
 line-height: 20px;
 }
 
@@ -108,11 +107,21 @@ line-height: 20px;
 .footer-support{align-content:center;
 }
 
-.footer-support:hover{transform: scale(1.1);}
+.footer-support:hover{transform: scale(1.1);
+}
 
-img{width:180px;
+.rounded-image{width:180px;
 height:180px;
 }
 
+.square-image{width:200px;
+height:200px;
+}
 
+
+.hero-container{grid-template-columns: repeat(2, 1fr);
+gap:50px;
+padding-block:100px;
+padding-inline:80px;
+justify-content:center;}
 

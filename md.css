@@ -49,3 +49,14 @@ padding-inline-end:85px;
 .footer-support{padding-block-start:0;
 }
 
+.square-image{width:150px;
+height:150px;
+}
+
+.hero-container{
+grid-template-columns: repeat(2, 1fr);
+gap:40px;
+padding-block:80px;
+padding-inline:40px;
+justify-content:center;}
+
