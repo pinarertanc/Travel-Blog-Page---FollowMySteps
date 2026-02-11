@@ -39,7 +39,7 @@ h2{font-size:1.7em;
 h3{font-size:1.6em;
 }
 
-h3,p{margin-block-start:10px;
+h3,h4,p{margin-block-start:10px;
 margin-block-end: 0;
 }
 
@@ -114,14 +114,14 @@ color:var(--night-blue);
 }
 
 .hero-image{display:block;
- padding-block-start:36rem;
+ padding-block-start:38rem;
 }
 
 .hero-contant{ 
 text-align:center;
 margin:auto;
 max-inline-size: 30ch;
-padding-block-end:32px;
+padding-block-end:38px;
 }
 
 .hero-paragraph{font-size:0.8em;
@@ -157,7 +157,7 @@ padding-block-start: 15px;
 
 .mail{font-size:large;}
 
-.instagram,.youtube{
+.instagram,.youTube{
 padding:8px 8px;
 border-radius:50px 50px;
 background-color:var(--sunny-yellow);
@@ -177,24 +177,21 @@ object-fit:cover;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.hero-container{ display:flex;
+.hero-container,.article-container{ display:flex;
 flex-direction:column;
 gap:25px;
 padding:25px;
+justify-content:center;
+}
+
+.article-container{align-items:center;
 }
 
 .divider{border-bottom: 1px solid var(--sunny-yellow);
 max-width:var(--site-contant-sm);
 }
 
-section{padding:25px;
-display:flex;
-flex-direction:column;
-gap:25px;
-justify-content:center;
-align-items:center;
-}
-
-.text-indent{text-indent:20px;}
-
 .hastag{color:var(--sunny-yellow);}
+
+article:nth-child(2){text-indent:20px;
+}

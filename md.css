@@ -32,7 +32,7 @@ background-color: var(--sunny-yellow);
 border-radius:50px 50px;
 }
 
-.hero-image{padding-block-start:30rem;
+.hero-image{padding-block-start:36rem;
 }
 
 footer{flex-direction:row;

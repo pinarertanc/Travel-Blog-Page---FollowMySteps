@@ -51,14 +51,14 @@ a{text-decoration:none;
 color:var(--night-blue);
 }
 
-.instagram,.youtube{
+.instagram,.youTube{
 padding:5px 5px;
 background-color:var(--sunny-yellow);
 }
 
 .instagram:hover{background-color:#e1306c;
 }
-.youtube:hover{background-color:#ff0000;
+.youTube:hover{background-color:#ff0000;
 }
 
 .logo{ 
@@ -69,7 +69,7 @@ color:var(--night-blue);
 .logo:hover{transform: scale(1.1);}
 
 .hero-image{display:block;
- padding-top:37rem;
+ padding-top:45rem;
 }
 
 .hero-contant{display:flex;
@@ -121,4 +121,3 @@ height:420px;
 .hero-container{gap:45px;
 padding:50px;}
 
-section{padding:40px;}
