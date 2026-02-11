@@ -15,7 +15,7 @@
 }
 
 html {
-  font-size: clamp(0.5rem, 0.65rem + 1.5vw, 1.2rem);}
+  font-size: clamp(0.5rem, 0.65rem + 1.5vw, 1rem);}
 
 body {
 margin: 0;
@@ -29,7 +29,7 @@ background-size:auto;
 .tab-body{background-image:none;}
 .tab-nav{box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
 
-h1,h2,h3,.logo{font-family:'Caveat', sans-serif;
+h1,h2,h3,h4,.logo{font-family:'Caveat', sans-serif;
 color:var(--night-blue);}
 
 h2{font-size:1.7em;
@@ -196,3 +196,5 @@ align-items:center;
 }
 
 .text-indent{text-indent:20px;}
+
+.hastag{color:var(--sunny-yellow);}
