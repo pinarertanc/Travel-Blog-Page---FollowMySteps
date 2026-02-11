@@ -85,16 +85,6 @@ padding-inline:128px;
 
 .mail:hover{font-weight: bolder;}
 
-h2{font-size:1.7em;
-}
-
-h3{font-size:1.7em;
-}
-
-p{font-size:0.8em;
-line-height: 20px;
-}
-
 .footer-profile{padding-block-start: 0.7rem;}
 
 .footer-contact{display:flex;
@@ -114,14 +104,20 @@ line-height: 20px;
 height:180px;
 }
 
-.square-image{width:200px;
-height:200px;
+.square-image{width:600px;
+height:420px;
 }
 
+.flex-row{display:flex;
+  gap:25px;
+}
 
-.hero-container{grid-template-columns: repeat(2, 1fr);
-gap:50px;
-padding-block:100px;
-padding-inline:80px;
-justify-content:center;}
+.divider{display:flex;
+  max-width:var(--site-contant-lg);
+}
+.row-reverse{flex-direction:row-reverse;
+}
+
+.hero-container{gap:45px;
+padding:50px;}
 

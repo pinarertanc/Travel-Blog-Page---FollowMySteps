@@ -35,8 +35,6 @@ border-radius:50px 50px;
 .hero-image{padding-block-start:30rem;
 }
 
-h3{font-size:28px;}
-
 footer{flex-direction:row;
 justify-content:space-between;
 padding-inline:20px;
@@ -49,14 +47,13 @@ padding-inline-end:85px;
 .footer-support{padding-block-start:0;
 }
 
-.square-image{width:150px;
-height:150px;
+.square-image{width:310px;
+height:240px;
 }
 
-.hero-container{
-grid-template-columns: repeat(2, 1fr);
-gap:40px;
-padding-block:80px;
-padding-inline:40px;
-justify-content:center;}
+.flex-row{display:flex;
+flex-direction:row;
+gap:15px;}
 
+.divider{max-width:var(--site-contant-md);
+}
