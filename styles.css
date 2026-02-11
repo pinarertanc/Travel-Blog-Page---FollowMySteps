@@ -187,3 +187,12 @@ padding:25px;
 max-width:var(--site-contant-sm);
 }
 
+section{padding:25px;
+display:flex;
+flex-direction:column;
+gap:25px;
+justify-content:center;
+align-items:center;
+}
+
+.text-indent{text-indent:20px;}
