@@ -25,8 +25,10 @@ display: none;
 }
  
 ul li:hover ul {top: 27px;
-left: 0px;
 display: block;
+background-color:var(--classic-beige);
+border-radius:10%;
+max-width:70px;
 }
 
 .navbar-list li a{padding:5px 7px;
@@ -104,8 +106,12 @@ padding-inline:128px;
 height:180px;
 }
 
-.square-image{width:600px;
+.rectangle-image{width:600px;
 height:420px;
+}
+
+.square-image{width:240px;
+height:200px;
 }
 
 .flex-row{display:flex;
@@ -121,3 +127,8 @@ height:420px;
 .hero-container{gap:45px;
 padding:50px;}
 
+.secondary-container{display:grid;
+grid-template: repeat(2,300px)/ repeat(3,300px);
+gap:50px 50px;
+padding:50px;
+}
