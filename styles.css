@@ -191,7 +191,11 @@ justify-content:center;
 max-width:var(--site-contant-sm);
 }
 
-.hastag{color:var(--sunny-yellow);}
-
 article:nth-child(2){text-indent:20px;
 }
+
+span.hastag{color:var(--sunny-yellow);
+font-weight:bold;}
+
+p>a{font-style: italic;
+font-weight: bold;}
