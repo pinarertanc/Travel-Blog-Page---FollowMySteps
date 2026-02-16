@@ -132,3 +132,8 @@ grid-template: repeat(2,300px)/ repeat(3,300px);
 gap:50px 50px;
 padding:50px;
 }
+
+.info-container{display:flex;
+  flex-direction:row;
+gap:40px;
+padding:20px;}

@@ -220,3 +220,8 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
 text-align:center;
 }
 .xx:hover{transform:scale(1.1)}
+
+.info-container{display:flex;
+  flex-direction:column;
+gap:40px;
+padding:20px;}
