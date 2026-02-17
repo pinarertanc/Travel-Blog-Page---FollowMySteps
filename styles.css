@@ -231,13 +231,16 @@ max-width:fit-content;
 gap:40px;
 padding:20px;}
 
-.hero-container{height: 85%;
-  padding-block:40px;
+.presentation-container{display:flex;
+  width:90%;
+  height: 85%;
   margin: auto;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   scroll-snap-type: x mandatory;
+  padding-block:90px;
 }
 
- .hero-container>a{padding-inline:5px;}
+.presentation{text-align:center;
+padding:5px;}
