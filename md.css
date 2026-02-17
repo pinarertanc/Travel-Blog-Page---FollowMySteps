@@ -8,8 +8,7 @@ nav{max-width:var(--site-contant-md);
 }
 
 .logo{ 
-font-size:44px;  
-order:2;  
+font-size:44px;   
 }
 
 #sidebarMenu {
@@ -18,7 +17,7 @@ top:100px;
 
 .sidebarIconToggle {
 padding:11px 11px;
-order:2;
+order:1;
 }
 
 .social-media{display:none;

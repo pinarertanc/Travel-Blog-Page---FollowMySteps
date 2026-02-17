@@ -13,7 +13,6 @@ gap:20px;
 list-style:none;
 padding-inline-start:0;
 padding-inline-end:100px;
-order:1;
 }
 
 ul li {position: relative;
@@ -46,7 +45,6 @@ filter:opacity(40%);
 
 .social-media { display:flex;
 gap:10px;
-order:2;
 }
 
 a{text-decoration:none;
