@@ -122,7 +122,7 @@ height:200px;
 .row-reverse{flex-direction:row-reverse;
 }
 
-.secondary-container{display:grid;
+.grid-container{display:grid;
 grid-template: repeat(2,280px)/ repeat(3,280px);
 gap:10px;
 padding:50px;

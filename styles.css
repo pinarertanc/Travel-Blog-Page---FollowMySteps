@@ -205,14 +205,14 @@ font-weight:bold;}
 p>a{font-style: italic;
 font-weight: bold;}
 
-.secondary-container{display:grid;
+.grid-container{display:grid;
 grid-template: repeat(1,1fr)/ repeat(1,1fr);
 gap:10px;
 padding:30px;
 justify-items:center;
 }
 
-.xx{display:flex;
+.InnerGrid{display:flex;
 flex-direction:column;
 align-items:center;
 padding:5px;
@@ -223,7 +223,7 @@ max-height:fit-content;
 max-width:fit-content;
 }
 
-.xx:hover{transform:scale(1.1)}
+.InnerGrid:hover{transform:scale(1.1)}
 
 .info-container{display:flex;
   flex-direction:column;

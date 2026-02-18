@@ -50,7 +50,7 @@ padding-inline-end:85px;
 height:240px;
 }
 
-.secondary-container{display:grid;
+.grid-container{display:grid;
 grid-template: repeat(2,250px)/ repeat(2,250px);
 gap:10px;
 justify-content:center;
