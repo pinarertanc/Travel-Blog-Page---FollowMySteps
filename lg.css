@@ -52,13 +52,17 @@ color:var(--night-blue);
 }
 
 .instagram,.youTube{
-padding:5px 5px;
+padding:8px 8px;
 background-color:var(--sunny-yellow);
 }
 
 .instagram:hover{background-color:#e1306c;
 }
 .youTube:hover{background-color:#ff0000;
+}
+
+i:hover{
+  color:white;
 }
 
 .logo{ 
@@ -104,35 +108,37 @@ padding-inline:128px;
 height:180px;
 }
 
-.rectangle-image{width:600px;
-height:420px;
+.rectangle-image{width:500px;
+height:300px;
 }
 
-.square-image{width:200px;
-height:200px;
+.square-image{width:150px;
+height:150px;
 }
 
 .flex-row{display:flex;
   gap:25px;
 }
 
-.divider{display:flex;
-  max-width:var(--site-contant-lg);
-}
 .row-reverse{flex-direction:row-reverse;
 }
 
 .grid-container{display:grid;
-grid-template: repeat(2,280px)/ repeat(3,280px);
+grid-template: repeat(2,210px)/ repeat(3,210px);
 gap:10px;
-padding:50px;
+padding:80px;
+min-height:100vh;
 justify-content:center;
 }
 
 .info-container{display:flex;
 flex-direction:row-reverse;
-gap:60px;
+min-height:100vh;
+gap:100px;
 padding:80px;}
 
-
-  
+.image-container{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
