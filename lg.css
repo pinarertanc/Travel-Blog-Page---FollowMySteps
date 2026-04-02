@@ -2,6 +2,7 @@
 
 body {
 background-image: url(./assets/Hero-image-lg.png);
+background-position: 50% 0;
 }
 
 nav{max-width: var(--site-contant-lg);
